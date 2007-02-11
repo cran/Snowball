@@ -1,0 +1,28 @@
+README
+======
+
+Generating a Snowball jar archive
+---------------------------------
+1. download the latest Java sources of Snowball
+   http://snowball.tartarus.org/
+
+2. create directory "src" in the same directory as the "build.xml"
+   ant file.
+
+3. unpack the contents of the downloaded archive and move the 
+   sub-directory "org" (beneath "libstemmer/java/") into the "src"
+   folder.
+
+4. run "ant patch" to make the stemmers serializable.
+
+5. run "ant" - this will generate the jar archive in the "dist" 
+   directory.
+
+
+How to make the Snowball stemmers available in WEKA
+---------------------------------------------------
+You only need to include the generated jar "dist/snowball.jar" in your
+CLASSPATH.
+
+
+FracPete 2005-10-21

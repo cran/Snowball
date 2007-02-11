@@ -1,0 +1,10 @@
+4a5
+> import java.io.Serializable;
+6c7
+< public class Among {
+---
+> public class Among implements Serializable {
+31c32
+<     public Method method; /* method to use if substring matches */
+---
+>     public transient Method method; /* method to use if substring matches */
