@@ -1,6 +1,0 @@
-3a4
-> import java.io.Serializable;
-5c6
-< public class SnowballProgram {
----
-> public class SnowballProgram implements Serializable {

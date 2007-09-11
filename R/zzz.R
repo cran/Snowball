@@ -3,7 +3,8 @@ function(libname, pkgname)
 {
     require("RWeka")
     .jmergeClassPath(system.file("jar", "snowball.jar",
-                                 package = "Snowball"))
+                                 package = pkgname,
+                                 lib.loc = libname))
 }
 
 SnowballStemmer <-
