@@ -32,7 +32,7 @@ SnowballStemmer(x, control = NULL)
 }
 \seealso{
   Other R interfaces to Weka stemmers
-  (\link[RWeka:RWeka_stemmers]{RWeka\_stemmers})
+  (\link[RWeka:Weka_stemmers]{RWeka\_stemmers})
 }
 \examples{
 ## Test the supplied vocabulary for the default stemmer ('porter'):
