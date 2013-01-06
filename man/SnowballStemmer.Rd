@@ -30,6 +30,11 @@ SnowballStemmer(x, control = NULL)
   The Omegahat package \pkg{Rstem} provides an R interface to a C
   version of Porter's word stemming algorithm.
 }
+\note{
+  MacOS X users may need to perform \code{Sys.setenv(NOAWT = TRUE)}
+  before loading \pkg{Snowball} (and any other package using
+  \pkg{rJava}).
+}
 \seealso{
   Other R interfaces to Weka stemmers
   (\link[RWeka:Weka_stemmers]{RWeka\_stemmers})
